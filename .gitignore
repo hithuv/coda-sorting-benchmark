@@ -1,0 +1,103 @@
+# Build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.dSYM
+
+# CUDA specific build files
+*.ptx
+*.cubin
+*.fatbin
+*.cudafe1.c
+*.cudafe2.c
+*.cudafe1.cpp
+*.cudafe2.cpp
+*.cudafe1.gpu
+*.cudafe2.gpu
+*.cudafe1.ptx
+*.cudafe2.ptx
+*.cudafe1.cubin
+*.cudafe2.cubin
+*.cudafe1.fatbin
+*.cudafe2.fatbin
+*.cudafe1.cudafe1.c
+*.cudafe2.cudafe2.c
+*.cudafe1.cudafe1.cpp
+*.cudafe2.cudafe2.cpp
+*.cudafe1.cudafe1.gpu
+*.cudafe2.cudafe2.gpu
+*.cudafe1.cudafe1.ptx
+*.cudafe2.cudafe2.ptx
+*.cudafe1.cudafe1.cubin
+*.cudafe2.cudafe2.cubin
+*.cudafe1.cudafe1.fatbin
+*.cudafe2.cudafe2.fatbin
+
+# CMake build files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build/
+out/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
+
+# Python cache (if using Python scripts)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (uncomment if you don't want to track data)
+# *.csv
+# *.dat
+# *.txt
+
+# Profiling and debugging files
+*.prof
+*.trace
+*.nsys-rep
+*.qdrep
+*.sqlite
+
+# Package manager files
+node_modules/
+vendor/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
